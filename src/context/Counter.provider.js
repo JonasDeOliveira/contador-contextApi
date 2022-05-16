@@ -14,8 +14,12 @@ function CounterProvider(props) {
         setNumber(number - 1)
     }
 
+    const dobrarValor = () => {
+        setNumber(number * 2)
+    }
+
     return (
-        <CounterContext.Provider value={{number, decreaseNumber, increaseNumber}}>
+        <CounterContext.Provider value={{number, decreaseNumber, increaseNumber, dobrarValor}}>
             {props.children}
         </CounterContext.Provider>
     )

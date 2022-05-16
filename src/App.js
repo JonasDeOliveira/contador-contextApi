@@ -9,7 +9,7 @@ function App(props) {
   return (
     <CounterProvider>
       <Router>
-        <Routes />
+        <Routes/>
       </Router>
     </CounterProvider>
 

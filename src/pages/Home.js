@@ -4,7 +4,7 @@ import { CounterContext } from '../context/Counter.provider'
 
 function Home(props) {
 
-    const { number, increaseNumber, decreaseNumber } = useContext(CounterContext)
+    const { number, decreaseNumber, increaseNumber } = useContext(CounterContext)
 
     return(
         <>
